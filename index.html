@@ -8,62 +8,58 @@
 <style>
     body {
         font-family: Arial, sans-serif;
-        background-color: #7462625e;
+        background-color: #754eb35e;
         margin: 0;
         padding: 20px;
     }
     h1{
+        font-size: 25px;
         color: #000000;
         text-align: center;
     }  
     h2 {
-        color: #1100ff;
+        color: #e9e9e9;
+         font-size: 25px;
+          text-align: center;
     }
-    nav  {
-        background-color: #1d3041;
+    div  {
+        background-color: #4724a0;
         list-style: none;
         padding: 10 px;
-    }
-    nav a , li {
-        color: #ffffff;
-        font-weight: bold;
+        text-align: center;
     }
     img {
-        max-width: 150%;
+        width: 20%;
         height: auto;
+        border-radius: 10%;
         display: block;
         margin: 0 auto;
     }
-    section {
-        margin-bottom: 40px;
-        text-align: center;
+    .table01 {
+        width: 40%;
+        border-color: rgb(0, 255, 106);
+        margin-top: auto;
     }
-    table01 {
-        width: 100%;
-        border-collapse: collapse;
-        margin-top: 20px;
-    }
-   
     </style>
     </head>
-<body>
+
+    <body>
     <h1>Bienvenido a la pagina de musica</h1>
-    <section>
-        <nav>
+    <div>
+         <u>
                 <li><a href="/index.html">inicio </a></li>
                 <li><a href="/ventas.html">ventas </a></li>
                 <li><a href="/Contactos.html">Contactos</a></li>
                 <li><a href="/informacion.html">Informacion</a></li>
-            </ul>
-        </nav>
-    </section>
+        </u>
     </div>
-    <h2>Historia de la Musica</h2>
+    </div>
+    <h1>Historia de la musica</h1>
     <p>La música es una forma de arte que ha existido desde tiempos prehistóricos. A lo largo de la historia, ha evolucionado en estilos y géneros, reflejando las culturas y sociedades de cada época. Desde la música clásica hasta el pop moderno, la música ha sido una parte integral de la vida humana, utilizada para expresar emociones, contar historias y unir a las personas.</p>
      <img src="/imagenes/descarga.png" alt="">
-
-    <h2>Tipos de música</h2>
-    <ul>
+       
+     <tbody>
+        <h1>Tipos de música</h1>
         <h1>Clásica</h1>
         <img src="/imagenes/clasica.jpg" alt="">
         <p>La música clásica es un tipo de música culta, originada principalmente en la tradición musical occidental, tanto litúrgica como secular, con foco en Europa Occidental.</p>
@@ -76,16 +72,16 @@
         <h1>Hip Hop</h1>
         <img src="/imagenes/hiphop.jpg" alt="">
         <p>El hip hop es un género musical y cultural que se originó en la comunidad afroamericana y latina de Nueva York en la década de 1970, caracterizado por el uso de ritmos electrónicos, rimas habladas (rap) y una fuerte conexión con el arte urbano.</p>
-
-        <table class="table01">
-            <caption>Tabla de géneros musicales</caption>
-            <thead>
+<div>
+        <table class="table01" border="1">
+            <caption><h2>Tabla de géneros musicales</h2></caption>
+                
                 <tr>
                     <th>Género</th>
                     <th>Descripción</th>
                 </tr>
-            </thead>
-            <tbody>
+            
+                <tbody>
                 <tr>
                     <td>Clásica</td>
                     <td>Música culta con raíces en la tradición europea.</td>
@@ -102,6 +98,7 @@
                     <td>Hip Hop</td>
                     <td>Género urbano con ritmos electrónicos y rap.</td>
                 </tr>
-            </tbody>
+        </div>
+</tbody>
 </body>
 </html>
